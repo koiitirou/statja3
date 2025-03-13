@@ -4,7 +4,7 @@ const pre_path = pre_path0.path;
 export const getStaticPaths = async () => {
   return {
     paths: pre_path,
-    fallback: false,
+    fallback: "blocking",
   };
 };
 
