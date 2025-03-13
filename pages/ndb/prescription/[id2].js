@@ -21,7 +21,7 @@ export const getStaticProps = async (context) => {
 };
 
 const Home = (props) => {
-  return <>{props.id2}</>;
+  return <>{props.id2}a</>;
 };
 
 export default Home;
