@@ -1,8 +1,9 @@
 import pre_path0 from "components/data/path_ndb/sum_prescription_path.json";
 
+const pre_path = pre_path0.path;
 export const getStaticPaths = async () => {
   return {
-    paths: pre_path0.path,
+    paths: pre_path,
     fallback: false,
   };
 };
